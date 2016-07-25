@@ -18,12 +18,11 @@ function bumpCounter() {
 
 function createAnimal(animalType) {
 	return ((deadlyDevice) => {
-		var obj = {}
+		return
 		{
-			obj.animalType = animalType
-			obj.deadlyDevice = deadlyDevice
+			animalType: animalType
+			deadlyDevice: deadlyDevice
 		}
-		return obj
 	})
 }
 
